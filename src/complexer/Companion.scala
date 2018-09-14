@@ -1,4 +1,4 @@
-package basics
+package complexer
 
 // companion object
 object FussballSpiel {

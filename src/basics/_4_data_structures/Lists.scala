@@ -1,4 +1,4 @@
-package basics
+package basics._4_data_structures
 
 object Lists extends App {
 

@@ -1,4 +1,4 @@
-package basics
+package basics._3_functions
 
 object Functions extends App {
 

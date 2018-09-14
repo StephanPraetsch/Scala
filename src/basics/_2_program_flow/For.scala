@@ -1,4 +1,4 @@
-package basics
+package basics._2_program_flow
 
 object For extends App {
 

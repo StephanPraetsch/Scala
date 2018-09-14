@@ -1,4 +1,4 @@
-package playing
+package basics._3_functions
 
 object Playing {
 

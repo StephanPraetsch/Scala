@@ -1,4 +1,4 @@
-package basics
+package basics._3_functions
 
 object StandardArgumente {
   def main(args: Array[String]) {
