@@ -2,20 +2,20 @@ package basics._2_program_flow
 
 object ite extends App {
 
-  val a = control('-', 1, 2)
-  println("a=" + a)
-  control('+', 1, 2)
-  control('*', 1, 2)
-
   def control(op: Char, value1: Int, value2: Int) {
     if (op.equals('-')) {
-      println("Minus")
+      println(value1 + " minus " + value2)
       value1 - value2
     } else if (op.equals('+')) {
-      println("Plus")
+      println(value1 + " plus " + value2)
       value1 + value2
     } else println("None")
   }
+
+  val a = control('-', 1, 2)
+  println(a.toString())
+  control('+', 1, 2)
+  control('*', 1, 2)
 
   val ifExample = new IfExample()
 
