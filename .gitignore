@@ -1,4 +1,1 @@
-.metadata
-.recommenders
-*.class
-.cache
+/bin/
