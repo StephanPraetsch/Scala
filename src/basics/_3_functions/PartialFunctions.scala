@@ -4,7 +4,7 @@ object Playing {
 
   def main(args: Array[String]): Unit = {
     println("hello")
-    partialFunction()
+    println("partial = " + partialFunction())
   }
 
   val f2: PartialFunction[List[Int], String] = {
@@ -19,7 +19,11 @@ object Playing {
     f2(List(1, 2, 3))
     f2(List(1))
     f2(List(1, 2))
-
   }
+
+  def parameterListe(a: String, b: String)(c: String)(d: String) = println(a + " " + b + " " + c + " " + d)
+  def partial21(a: String, b: String)(c: String) = parameterListe(a, b)(c)("end")
+  def partial1(c: String) = partial21("that", "is")(c)
+  partial1("the")
 
 }
