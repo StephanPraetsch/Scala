@@ -1,4 +1,4 @@
-package basics._5_objects
+package basics._5_classes
 
 class Person(firstName: String, lastName: String, age: Int) {
   def isAdult: Boolean = if (age >= 18) true else false

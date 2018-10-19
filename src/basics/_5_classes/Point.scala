@@ -1,4 +1,4 @@
-package basics._5_objects
+package basics._5_classes
 
 import java.io._
 
