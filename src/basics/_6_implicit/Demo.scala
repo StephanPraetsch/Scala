@@ -14,7 +14,8 @@ object Demo {
   }
 
   def main(args: Array[String]) {
-    4 times println("hello")
+    val x = 5
+    x times println("Hello");
   }
 
 }
