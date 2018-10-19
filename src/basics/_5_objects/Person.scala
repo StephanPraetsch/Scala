@@ -1,6 +1,6 @@
 package basics._5_objects
 
-case class Person(firstName: String, lastName: String, age: Int) {
+class Person(firstName: String, lastName: String, age: Int) {
   def isAdult: Boolean = if (age >= 18) true else false
   override def toString() = firstName + " " + lastName + " is " + (if (isAdult) "" else "not ") + "adult"
 }
