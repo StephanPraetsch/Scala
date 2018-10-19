@@ -10,15 +10,18 @@ object Playing {
   val f2: PartialFunction[List[Int], String] = {
     case Nil => "no element"
     case x :: y :: rest => "three elements"
-    case x => "one element"
     case x :: y => "two elements"
+    case x => "one element" // broken, dont know why
   }
 
   def partialFunction() = {
-    f2.isDefinedAt(List(1, 2, 3))
-    f2(List(1, 2, 3))
-    f2(List(1))
-    f2(List(1, 2))
+    println("f2.isDefinedAt = " + f2.isDefinedAt(List(1, 2, 3)))
+    println("f2(Nil) = " + f2(Nil))
+    println("f2(List(1)) = " + f2(List(1)))
+    println("f2(List(1, 2)) = " + f2(List(1, 2)))
+    println("f2(List(1, 2, 3)) = " + f2(List(1, 2, 3)));
+    println("f2(List(1, 2, 3, 4)) = " + f2(List(1, 2, 3, 4)));
+    "return value"
   }
 
   def parameterListe(a: String, b: String)(c: String)(d: String) = println(a + " " + b + " " + c + " " + d)
