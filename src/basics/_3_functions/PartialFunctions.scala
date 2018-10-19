@@ -11,7 +11,7 @@ object Playing {
     case Nil => "no element"
     case x :: y :: rest => "three elements"
     case x :: y => "two elements"
-    case x => "one element" // broken, dont know why
+    case x => "one element" // TODO broken, dont know why
   }
 
   def partialFunction() = {
