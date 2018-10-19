@@ -1,4 +1,4 @@
-package basics._6_monoid
+package basics._7_monoid
 
 object first_monoid extends App {
 

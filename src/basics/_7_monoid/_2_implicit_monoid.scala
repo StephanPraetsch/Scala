@@ -1,6 +1,6 @@
-package basics._6_monoid
+package basics._7_monoid
 
-import basics._6_monoid.first_monoid.Monoid
+import basics._7_monoid.first_monoid.Monoid
 
 object implicit_monoid extends App {
 
